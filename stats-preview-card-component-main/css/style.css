@@ -69,7 +69,6 @@ span{
     background-image: url("../images/image-header-desktop.jpg");
     background-repeat: none;
     background-size: cover;
-    float: right;
     width: 540px;
     height: 446px;
 }
@@ -84,5 +83,49 @@ span{
 
 
 
-.attribution { font-size: 11px; text-align: center; align-self:flex-end; align-items: center;}
+.attribution { font-size: 11px; text-align: center; align-self:flex-end; align-items: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen  and (max-width: 640px)
+{
+.container{
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 375px;
+    height: 100%;
+    text-align: center;
+}
+
+.text{
+    width: 375px;
+    text-align: center;
+    margin: auto;
+}
+
+.cards-container{
+    flex-direction: column;
+}
+
+.card{
+    width: 375px;
+    display: inline;
+    align-items: center;
+    padding-left: 0%;
+}
+
+h2, .card p{
+    width: 75%;
+    text-align: center;
+}
+
+
+.img{
+    background-image: url("../images/image-header-mobile.jpg");
+    width: 100%;
+}
+.attribution{
+    display: none;
+}
+}
