@@ -1,0 +1,129 @@
+
+body, html{
+    background-color: hsl(0, 0%, 98%);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 30px;
+}
+
+h3{
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+}
+
+.card h3{
+    font-size: 20px;
+}
+
+p{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.sub{
+    font-weight: 600;
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    line-height: 15px;
+    width: 30%;
+    padding: 2.5em;
+    
+}
+
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 75vh;
+}
+
+.card{
+    margin: 1.5em;
+    padding: 1em;
+    padding-left: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 6px 14px 0px hsl(229, 6%, 66%);
+    width: 300px;
+    height: 230px;
+}
+
+.column{
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.green{
+    border-top: 10px solid hsl(180, 62%, 55%);
+}
+
+.red{
+    border-top: 10px solid hsl(0, 78%, 62%);
+    
+}
+
+.yellow{
+    border-top: 10px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top: 10px solid hsl(212, 86%, 64%);
+}
+
+img{
+    float: right;
+    margin: 1em;
+}
+
+footer{
+    margin: 4em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen  and (max-width: 640px)
+{
+    .title{
+        width: 65%;
+        height: 25%;
+        flex-direction: column;
+    } 
+
+    h2, .sub{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .column{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .red{
+        margin-bottom: 3em;
+    }
+    
+    .cards-container{
+        flex-direction: column;
+        margin-top: 3em;
+        height: 100%;
+    }
+
+    footer{
+        margin-top: 10em;
+    }
+}
