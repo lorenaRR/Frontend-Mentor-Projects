@@ -1,0 +1,129 @@
+body, html{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background-color: hsl(268, 75%, 9%);
+    font-family: 'Spartan', sans-serif;
+}
+
+h3, p{
+    color: hsl(52, 100%, 62%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(52, 100%, 62%);
+    margin: 10px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers, .toggle{
+    background-color: hsl(268, 71%, 12%);
+}
+
+.numbers{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.result{
+    background-color:  hsl(268, 71%, 12%);
+    width: 385px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    color: hsl(52, 100%, 62%);
+    font-size: 50px;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+}
+
+.result p{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 30px;
+}
+
+
+button{
+    font-size: 26px;
+    font-weight: 700;
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 47%, 21%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 0px 0px hsl(290, 70%, 36%);
+    cursor: pointer;
+}
+
+button:active{
+    position: relative;
+    top:4px;
+    box-shadow: none;
+
+}
+
+.color1{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 4px 0px 0px hsl(285, 91%, 52%);
+    color: white;
+}
+
+.color2{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 4px 0px 0px hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
+}
+
+.big{
+    width: 175px;
+    height: 50px; 
+    margin: 5px;
+}
+
+.title{
+    color: hsl(60, 10%, 19%);
+    margin: 10px;
+    display: flex;               
+    flex-direction: row;           
+    flex-wrap: nowrap;              
+    justify-content: space-between;
+}
+
+.title p{
+    margin-right: -150px;
+}
+
+.toggle{
+    height: 20px;
+    width: 90px;
+    border-radius: 25px;
+}
+
+.circle{
+    position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color:  hsl(176, 100%, 44%);
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 65px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
